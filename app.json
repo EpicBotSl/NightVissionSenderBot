@@ -14,7 +14,7 @@
 
         "telegram-bot",
 
-        "botzhub"
+        "SLBotOfficial"
 
     ],
 
@@ -26,29 +26,30 @@
 
     "env": {
 
-        "API_HASH": {
-
-            "description": "You API HASH from my.telegram.org",
-
-            "value": ""
-
-        },
-
-        "APP_ID": {
-
-            "description": "You API ID from my.telegram.org",
-
-            "value": ""
-
-        },
-
         "BOT_TOKEN": {
-
-            "description": "Bot token, get it from @BotFather.",
-
+            "description": "Your Bot token from @Botfather",
             "value": ""
-
         },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Telegram User id of Owner",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis URL, Get it from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASS": {
+            "description": "Redis Password, Get it from redislabs.com",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",
+            "value": ""
+        }
 
         "FROM_CHANNEL": {
 
