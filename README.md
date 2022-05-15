@@ -7,6 +7,10 @@ This bot can send all new messages from one channel, directly to another channel
 * First:
 > `APP_ID` and `API_HASH` - Get it from my.telegram.org   
 > `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)   
+> `OWNER_ID` - Telegram User id Of OWNER.
+> `REDIS_URI` - Get This Value from [RedisLabs.](https://redislabs.com)
+> `REDIS_PASS` - Redis Password.
+> `START_MESSAGE (optional)` - If want to Change The Start Message.
 > `FROM_CHANNEL` - The ID of the main channel from where posts have to be copied. 
 > `TO_CHANNEL` - The ID of the channel to which the posts are to be sent. 
    
@@ -34,5 +38,5 @@ Visit [@Team SL Bots🇱🇰](https://t.me/SLBotOfficial) for help.
 > [𝕯𝖆𝖗𝖐 𝕰𝖒𝖕𝖎𝖗𝖊](https://github.com/DARKEMPIRESL), me.   
 > [@ettan_fan](https://t.me/ettan_fan)   
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARKEMPIRESL/ChannelAutoPost)
 
