@@ -10,4 +10,4 @@ class var:
     START_MESSAGE = os.getenv("START_MESSAGE", None)  # Not Mandatory
     OWNER_ID = os.getenv("OWNER_ID", None)
     REDIS_URI = os.getenv("REDIS_URI", None)
-    REDIS_PASS = os.getenv("REDIS_PASS", None)
+    REDIS_PASS = os.getenv("REDIS_PASS", None) 
