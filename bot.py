@@ -17,6 +17,8 @@ import asyncio
 from telethon import TelegramClient, events, Button
 from decouple import config
 from telethon.tl.functions.users import GetFullUserRequest
+from pyrogram import Client, idle
+from vars import var
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.INFO)
 
@@ -29,6 +31,7 @@ try:
     frm = config("FROM_CHANNEL", cast=int)
     tochnl = config("TO_CHANNEL", cast=int)
     datgbot = TelegramClient('bot', apiid, apihash).start(bot_token=bottoken)
+    plugins=dict(root="plugins")
 except:
     print("Environment vars are missing! Kindly recheck.")
     print("Bot is quiting...")
