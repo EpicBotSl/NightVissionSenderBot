@@ -36,7 +36,7 @@ Visit [@NIGHT VISSION BOTS 🇱🇰](https://t.me/NightVission) for help.
 ## Credits
 > [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon).   
 > [NAVANJANA](https://github.com/Captainamarica), me.   
-> [CONTACT](@NA_VA_N_JA_NA1)   
+> [CONTACT](https://t.me/NA_VA_N_JA_NA1)   
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Captainamarica/NightVissionSenderBot)
 
