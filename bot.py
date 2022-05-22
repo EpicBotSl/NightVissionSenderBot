@@ -1,5 +1,5 @@
-#    This file is part of the ChannelAutoForwarder distribution (https://github.com/DARKEMPIRESL/ChannelAutoForwarder).
-#    Copyright (c) 2022 DARKEMPIRESL
+#    This file is part of the ChannelAutoForwarder distribution (https://github.com/Captainamarica/NightVissionSenderBot).
+#    Copyright (c) 2022 NAVANJANA
 #    
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -41,12 +41,12 @@ except:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     ok = await datgbot(GetFullUserRequest(event.sender_id))
-    await event.reply(f"Hi `{ok.user.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/SLBotOfficial/28)..", buttons=[Button.url("Channel", url="https://t.me/SLBotOfficial"), Button.url("Dev", url="https://t.me/ImDark_Empire")], link_preview=False)
+    await event.reply(f"Hi `{ok.user.first_name}`!\n\nI am a channel auto-post bot by @NA_VA_N_JA_NA1!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/NightVission)..", buttons=[Button.url("Channel", url="https://t.me/NightVission"), Button.url("Dev", url="https://t.me/NightVissionSupport")], link_preview=False)
 
 
 @datgbot.on(events.NewMessage(pattern="/help"))
 async def helpp(event):
-    await event.reply("**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!!\n\nLiked the bot? Visit Support Group & Comment @trtechguide :)")
+    await event.reply("**Help**\n\nThis bot will send all new posts in one channel to the other channel. (without forwarded tag)!\n\nAdd me to both the channels and make me an admin in both, and all new messages would be autoposted on the linked channel!!\n\nLiked the bot? Visit Support Group & Comment @NightVissionSupport :)")
 
 @datgbot.on(events.NewMessage(incoming=True, chats=frm)) 
 async def _(event): 
@@ -58,5 +58,5 @@ async def _(event):
 
 
 print("Bot has started.")
-print("Do visit @trtechguide..")
+print("Do visit @NightVissionSupport..")
 datgbot.run_until_disconnected()
