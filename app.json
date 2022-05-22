@@ -1,10 +1,10 @@
 {
 
-    "name": "Channel Auto Post",
+    "name": "Night Vission Auto Post",
 
     "description": "Telegram Bot To Forward Msg.",
 
-    "logo": "https://telegra.ph/file/0e41c9763a65e874e39a5.jpg",
+    "logo": "https://te.legra.ph/file/4639ebcdc06761d31c9be.jpg",
 
     "keywords": [
 
@@ -18,11 +18,11 @@
 
     ],
 
-    "repository": "https://github.com/DARKEMPIRESL/ChannelAutoPost",
+    "repository": "https://github.com/Captainamarica/NightVissionSenderBot",
 
     "website": "https://www.slbots.org",
 
-    "success_url": "https://t.me/SLBotOfficial",
+    "success_url": "https://t.me/NightVission",
 
     "env": {
 
