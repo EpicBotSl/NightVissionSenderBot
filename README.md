@@ -25,7 +25,7 @@ Add the above values to the environment vars and deploy the bot.
 <br>
 - Clone the repo:   <code>git clone https://github.com/Captainamarica/NightVissionSenderBot</code></br>
 - Make a <code>.env</code> file in the root of the repo, like <a href="https://github.com/Captainamarica/NightVissionSenderBot/blob/main/.env.sample">.env.sample</a> and fill in the values.</br>
-- Use <code>python3 bot.py</code> to start the bot.</br>  
+- Use <code>python3 bot.py</code> to start the bot.</br
 </details>
 
 ## Usage
@@ -38,5 +38,5 @@ Visit [@NIGHT VISSION BOTS 🇱🇰](https://t.me/NightVission) for help.
 > [NAVANJANA](https://github.com/Captainamarica), me.   
 > [CONTACT](https://t.me/NA_VA_N_JA_NA1)   
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Captainamarica/NightVissionSenderBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EpicBotSl/NightVissionSenderBot)
 
